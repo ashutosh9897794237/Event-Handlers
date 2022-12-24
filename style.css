@@ -1,0 +1,30 @@
+*{   
+    left: 10px;
+
+}
+.nav{
+    left: 10px;
+    width: 40%;
+    left: 10px;
+}
+.container{
+    position: relative;
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    width: 40%;
+    left: 10px;
+    color: black;
+}
+.container-1{
+     position: relative;
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    width: 50%;
+    margin-left: 10px;
+    color: black;
+}
+.half1{
+    width: 50%;
+}
