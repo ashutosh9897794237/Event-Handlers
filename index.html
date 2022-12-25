@@ -11,12 +11,12 @@
 
 <body>
     <div>
-        <form id="form">
+        <form class="form">
             <p>Email</p>
             <input type="email" id="email" placeholder="example@gmail.com">
             <p style="display: none;" id="emailincorrect">Make sure email is more than 3 characters and has @ and a .</p>
             <p>Password</p>
-            <input type="password" id="password" placeholder="your password">
+            <input type="password" id="password" placeholder="your password" minlength="8" >
             <p style="display: none;" id="passwordincorrect">Make sure password is more than 8 characters.</p>
             <p style="display: none;" id="allgood">All good to go!</p>
             <button type="submit" id="myBtn" abled>Submit</button>
